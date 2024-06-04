@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jp\\source\\repos\\AnimeTracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|c:\\users\\jp\\source\\repos\\animetracker\\animetracker\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|solutionrelative:animetracker\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|c:\\users\\jp\\source\\repos\\animetracker\\animetracker\\services\\mangaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|solutionrelative:animetracker\\services\\mangaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|c:\\users\\jp\\source\\repos\\animetracker\\animetracker\\services\\imangaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|solutionrelative:animetracker\\services\\imangaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|c:\\users\\jp\\source\\repos\\animetracker\\animetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|solutionrelative:animetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\Jp\\source\\repos\\AnimeTracker\\AnimeTracker\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "AnimeTracker\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\Jp\\source\\repos\\AnimeTracker\\AnimeTracker\\Data\\DataContext.cs",
+              "RelativeToolTip": "AnimeTracker\\Data\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T18:03:37.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jp\\source\\repos\\AnimeTracker\\AnimeTracker\\Program.cs",
+              "RelativeDocumentMoniker": "AnimeTracker\\Program.cs",
+              "ToolTip": "C:\\Users\\Jp\\source\\repos\\AnimeTracker\\AnimeTracker\\Program.cs",
+              "RelativeToolTip": "AnimeTracker\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T17:58:11.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMangaService.cs",
+              "DocumentMoniker": "C:\\Users\\Jp\\source\\repos\\AnimeTracker\\AnimeTracker\\Services\\IMangaService.cs",
+              "RelativeDocumentMoniker": "AnimeTracker\\Services\\IMangaService.cs",
+              "ToolTip": "C:\\Users\\Jp\\source\\repos\\AnimeTracker\\AnimeTracker\\Services\\IMangaService.cs",
+              "RelativeToolTip": "AnimeTracker\\Services\\IMangaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T17:55:59.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MangaService.cs",
+              "DocumentMoniker": "C:\\Users\\Jp\\source\\repos\\AnimeTracker\\AnimeTracker\\Services\\MangaService.cs",
+              "RelativeDocumentMoniker": "AnimeTracker\\Services\\MangaService.cs",
+              "ToolTip": "C:\\Users\\Jp\\source\\repos\\AnimeTracker\\AnimeTracker\\Services\\MangaService.cs",
+              "RelativeToolTip": "AnimeTracker\\Services\\MangaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T17:55:50.542Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
