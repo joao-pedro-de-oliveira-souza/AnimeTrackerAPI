@@ -1,22 +1,21 @@
-﻿using AnimeTracker.Data;
-using AnimeTracker.Dtos;
+﻿using AnimeTracker.Dtos;
 using AnimeTracker.Entities;
-using Microsoft.EntityFrameworkCore;
+using AnimeTracker.Repositories;
 
 namespace AnimeTracker.Services
 {
     public class LightNovelService : ILightNovelService
     {
-        private readonly DataContext _context;
+        private readonly ILightNovelRepository _lightNovelRepository;
 
-        public LightNovelService(DataContext context)
+        public LightNovelService(ILightNovelRepository lightNovelRepository)
         {
-            _context = context;
+            _lightNovelRepository = lightNovelRepository;
         }
 
         public async Task<List<LightNovelDto>> GetAllLightNovels()
         {
-            var lightNovels = await _context.LightNovels.ToListAsync();
+            var lightNovels = await _lightNovelRepository.GetAllLightNovels();
             return lightNovels.Select(lightNovel => new LightNovelDto
             {
                 Id = lightNovel.Id,
@@ -28,7 +27,7 @@ namespace AnimeTracker.Services
 
         public async Task<LightNovelDto> GetLightNovel(int id)
         {
-            var lightNovel = await _context.LightNovels.FindAsync(id);
+            var lightNovel = await _lightNovelRepository.GetLightNovel(id);
             if (lightNovel == null)
                 return null;
 
@@ -50,8 +49,7 @@ namespace AnimeTracker.Services
                 Rating = lightNovelDto.Rating
             };
 
-            _context.LightNovels.Add(lightNovel);
-            await _context.SaveChangesAsync();
+            lightNovel = await _lightNovelRepository.AddLightNovel(lightNovel);
 
             return new LightNovelDto
             {
@@ -64,7 +62,7 @@ namespace AnimeTracker.Services
 
         public async Task<bool> UpdateLightNovel(int id, LightNovelDto updateDto)
         {
-            var dbLightNovel = await _context.LightNovels.FindAsync(id);
+            var dbLightNovel = await _lightNovelRepository.GetLightNovel(id);
             if (dbLightNovel == null)
                 return false;
 
@@ -72,19 +70,12 @@ namespace AnimeTracker.Services
             dbLightNovel.Description = updateDto.Description;
             dbLightNovel.Rating = updateDto.Rating;
 
-            await _context.SaveChangesAsync();
-            return true;
+            return await _lightNovelRepository.UpdateLightNovel(dbLightNovel);
         }
 
         public async Task<bool> DeleteLightNovel(int id)
         {
-            var dbLightNovel = await _context.LightNovels.FindAsync(id);
-            if (dbLightNovel == null)
-                return false;
-
-            _context.LightNovels.Remove(dbLightNovel);
-            await _context.SaveChangesAsync();
-            return true;
+            return await _lightNovelRepository.DeleteLightNovel(id);
         }
     }
 }

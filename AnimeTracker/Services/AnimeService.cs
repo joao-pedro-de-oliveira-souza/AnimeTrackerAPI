@@ -1,23 +1,22 @@
-﻿// AnimeService.cs
-using AnimeTracker.Data;
-using AnimeTracker.Dtos;
+﻿using AnimeTracker.Dtos;
 using AnimeTracker.Entities;
-using Microsoft.EntityFrameworkCore;
+using AnimeTracker.Repositories;
 
 namespace AnimeTracker.Services
 {
     public class AnimeService : IAnimeService
     {
-        private readonly DataContext _context;
+        private readonly IAnimeRepository _animeRepository;
 
-        public AnimeService(DataContext context)
+        public AnimeService(
+            IAnimeRepository animeRepository)
         {
-            _context = context;
+            _animeRepository = animeRepository;
         }
 
         public async Task<List<AnimeDto>> GetAllAnimes()
         {
-            var animes = await _context.Animes.ToListAsync();
+            var animes = await _animeRepository.GetAllAnimes();
             return animes.Select(anime => new AnimeDto
             {
                 Id = anime.Id,
@@ -29,7 +28,7 @@ namespace AnimeTracker.Services
 
         public async Task<AnimeDto> GetAnime(int id)
         {
-            var anime = await _context.Animes.FindAsync(id);
+            var anime = await _animeRepository.GetAnime(id);
             if (anime == null)
                 return null;
 
@@ -51,8 +50,7 @@ namespace AnimeTracker.Services
                 Rating = animeDto.Rating
             };
 
-            _context.Animes.Add(anime);
-            await _context.SaveChangesAsync();
+            anime = await _animeRepository.AddAnime(anime);
 
             return new AnimeDto
             {
@@ -65,7 +63,7 @@ namespace AnimeTracker.Services
 
         public async Task<bool> UpdateAnime(int id, AnimeDto updateDto)
         {
-            var dbAnime = await _context.Animes.FindAsync(id);
+            var dbAnime = await _animeRepository.GetAnime(id);
             if (dbAnime == null)
                 return false;
 
@@ -73,19 +71,12 @@ namespace AnimeTracker.Services
             dbAnime.Description = updateDto.Description;
             dbAnime.Rating = updateDto.Rating;
 
-            await _context.SaveChangesAsync();
-            return true;
+            return await _animeRepository.UpdateAnime(dbAnime);
         }
 
         public async Task<bool> DeleteAnime(int id)
         {
-            var dbAnime = await _context.Animes.FindAsync(id);
-            if (dbAnime == null)
-                return false;
-
-            _context.Animes.Remove(dbAnime);
-            await _context.SaveChangesAsync();
-            return true;
+            return await _animeRepository.DeleteAnime(id);
         }
     }
 }

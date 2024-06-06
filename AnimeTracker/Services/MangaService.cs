@@ -1,22 +1,21 @@
-﻿using AnimeTracker.Data;
-using AnimeTracker.Dtos;
+﻿using AnimeTracker.Dtos;
 using AnimeTracker.Entities;
-using Microsoft.EntityFrameworkCore;
+using AnimeTracker.Repositories;
 
 namespace AnimeTracker.Services
 {
     public class MangaService : IMangaService
     {
-        private readonly DataContext _context;
+        private readonly IMangaRepository _mangaRepository;
 
-        public MangaService(DataContext context)
+        public MangaService(IMangaRepository mangaRepository)
         {
-            _context = context;
+            _mangaRepository = mangaRepository;
         }
 
         public async Task<List<MangaDto>> GetAllMangas()
         {
-            var mangas = await _context.Mangas.ToListAsync();
+            var mangas = await _mangaRepository.GetAllMangas();
             return mangas.Select(manga => new MangaDto
             {
                 Id = manga.Id,
@@ -28,7 +27,7 @@ namespace AnimeTracker.Services
 
         public async Task<MangaDto> GetManga(int id)
         {
-            var manga = await _context.Mangas.FindAsync(id);
+            var manga = await _mangaRepository.GetManga(id);
             if (manga == null)
                 return null;
 
@@ -50,8 +49,7 @@ namespace AnimeTracker.Services
                 Rating = mangaDto.Rating
             };
 
-            _context.Mangas.Add(manga);
-            await _context.SaveChangesAsync();
+            manga = await _mangaRepository.AddManga(manga);
 
             return new MangaDto
             {
@@ -64,7 +62,7 @@ namespace AnimeTracker.Services
 
         public async Task<bool> UpdateManga(int id, MangaDto updateDto)
         {
-            var dbManga = await _context.Mangas.FindAsync(id);
+            var dbManga = await _mangaRepository.GetManga(id);
             if (dbManga == null)
                 return false;
 
@@ -72,19 +70,12 @@ namespace AnimeTracker.Services
             dbManga.Description = updateDto.Description;
             dbManga.Rating = updateDto.Rating;
 
-            await _context.SaveChangesAsync();
-            return true;
+            return await _mangaRepository.UpdateManga(dbManga);
         }
 
         public async Task<bool> DeleteManga(int id)
         {
-            var dbManga = await _context.Mangas.FindAsync(id);
-            if (dbManga == null)
-                return false;
-
-            _context.Mangas.Remove(dbManga);
-            await _context.SaveChangesAsync();
-            return true;
+            return await _mangaRepository.DeleteManga(id);
         }
     }
 }

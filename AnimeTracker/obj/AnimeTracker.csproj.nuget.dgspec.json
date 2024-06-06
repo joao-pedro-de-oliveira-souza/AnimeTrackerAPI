@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jp\\source\\repos\\AnimeTracker\\AnimeTracker\\AnimeTracker.csproj": {}
+    "C:\\Users\\Jp\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\AnimeTracker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jp\\source\\repos\\AnimeTracker\\AnimeTracker\\AnimeTracker.csproj": {
+    "C:\\Users\\Jp\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\AnimeTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jp\\source\\repos\\AnimeTracker\\AnimeTracker\\AnimeTracker.csproj",
+        "projectUniqueName": "C:\\Users\\Jp\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\AnimeTracker.csproj",
         "projectName": "AnimeTracker",
-        "projectPath": "C:\\Users\\Jp\\source\\repos\\AnimeTracker\\AnimeTracker\\AnimeTracker.csproj",
+        "projectPath": "C:\\Users\\Jp\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\AnimeTracker.csproj",
         "packagesPath": "C:\\Users\\Jp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jp\\source\\repos\\AnimeTracker\\AnimeTracker\\obj\\",
+        "outputPath": "C:\\Users\\Jp\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jp\\AppData\\Roaming\\NuGet\\NuGet.Config",

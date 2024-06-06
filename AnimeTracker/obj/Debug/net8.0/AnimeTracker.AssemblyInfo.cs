@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AnimeTracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5147f88cdf05657cc5d663249f1090e4587ba82")]
 [assembly: System.Reflection.AssemblyProductAttribute("AnimeTracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AnimeTracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Jp\\source\\repos\\AnimeTracker\\",
+  "WorkspaceRootPath": "C:\\Users\\Jp\\source\\repos\\AnimeTrackerAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|c:\\users\\jp\\source\\repos\\animetracker\\animetracker\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|solutionrelative:animetracker\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|c:\\users\\jp\\source\\repos\\animetrackerapi\\animetracker\\controllers\\animecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|solutionrelative:animetracker\\controllers\\animecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|c:\\users\\jp\\source\\repos\\animetracker\\animetracker\\services\\mangaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|solutionrelative:animetracker\\services\\mangaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|c:\\users\\jp\\source\\repos\\animetrackerapi\\animetracker\\services\\lightnovelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|solutionrelative:animetracker\\services\\lightnovelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|c:\\users\\jp\\source\\repos\\animetracker\\animetracker\\services\\imangaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|solutionrelative:animetracker\\services\\imangaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|c:\\users\\jp\\source\\repos\\animetracker\\animetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|c:\\users\\jp\\source\\repos\\animetrackerapi\\animetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|solutionrelative:animetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|c:\\users\\jp\\source\\repos\\animetrackerapi\\animetracker\\repositories\\mangarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|solutionrelative:animetracker\\repositories\\mangarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|c:\\users\\jp\\source\\repos\\animetrackerapi\\animetracker\\repositories\\lightnovelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|solutionrelative:animetracker\\repositories\\lightnovelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|c:\\users\\jp\\source\\repos\\animetrackerapi\\animetracker\\services\\animeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{719DE84E-F95F-4372-9FE6-4C72B14FA772}|AnimeTracker\\AnimeTracker.csproj|solutionrelative:animetracker\\services\\animeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\Jp\\source\\repos\\AnimeTracker\\AnimeTracker\\Data\\DataContext.cs",
-              "RelativeDocumentMoniker": "AnimeTracker\\Data\\DataContext.cs",
-              "ToolTip": "C:\\Users\\Jp\\source\\repos\\AnimeTracker\\AnimeTracker\\Data\\DataContext.cs",
-              "RelativeToolTip": "AnimeTracker\\Data\\DataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T18:03:37.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Jp\\source\\repos\\AnimeTracker\\AnimeTracker\\Program.cs",
-              "RelativeDocumentMoniker": "AnimeTracker\\Program.cs",
-              "ToolTip": "C:\\Users\\Jp\\source\\repos\\AnimeTracker\\AnimeTracker\\Program.cs",
-              "RelativeToolTip": "AnimeTracker\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
+              "Title": "MangaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Jp\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\Repositories\\MangaRepository.cs",
+              "RelativeDocumentMoniker": "AnimeTracker\\Repositories\\MangaRepository.cs",
+              "ToolTip": "C:\\Users\\Jp\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\Repositories\\MangaRepository.cs",
+              "RelativeToolTip": "AnimeTracker\\Repositories\\MangaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T17:58:11.264Z",
+              "WhenOpened": "2024-06-06T15:26:56.181Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IMangaService.cs",
-              "DocumentMoniker": "C:\\Users\\Jp\\source\\repos\\AnimeTracker\\AnimeTracker\\Services\\IMangaService.cs",
-              "RelativeDocumentMoniker": "AnimeTracker\\Services\\IMangaService.cs",
-              "ToolTip": "C:\\Users\\Jp\\source\\repos\\AnimeTracker\\AnimeTracker\\Services\\IMangaService.cs",
-              "RelativeToolTip": "AnimeTracker\\Services\\IMangaService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jp\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\Program.cs",
+              "RelativeDocumentMoniker": "AnimeTracker\\Program.cs",
+              "ToolTip": "C:\\Users\\Jp\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\Program.cs",
+              "RelativeToolTip": "AnimeTracker\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAwCcAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T17:55:59.318Z",
+              "WhenOpened": "2024-06-06T15:17:50.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AnimeController.cs",
+              "DocumentMoniker": "C:\\Users\\Jp\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\Controllers\\AnimeController.cs",
+              "RelativeDocumentMoniker": "AnimeTracker\\Controllers\\AnimeController.cs",
+              "ToolTip": "C:\\Users\\Jp\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\Controllers\\AnimeController.cs",
+              "RelativeToolTip": "AnimeTracker\\Controllers\\AnimeController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAjwBMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T15:17:41.588Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MangaService.cs",
-              "DocumentMoniker": "C:\\Users\\Jp\\source\\repos\\AnimeTracker\\AnimeTracker\\Services\\MangaService.cs",
-              "RelativeDocumentMoniker": "AnimeTracker\\Services\\MangaService.cs",
-              "ToolTip": "C:\\Users\\Jp\\source\\repos\\AnimeTracker\\AnimeTracker\\Services\\MangaService.cs",
-              "RelativeToolTip": "AnimeTracker\\Services\\MangaService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Title": "LightNovelService.cs",
+              "DocumentMoniker": "C:\\Users\\Jp\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\Services\\LightNovelService.cs",
+              "RelativeDocumentMoniker": "AnimeTracker\\Services\\LightNovelService.cs",
+              "ToolTip": "C:\\Users\\Jp\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\Services\\LightNovelService.cs",
+              "RelativeToolTip": "AnimeTracker\\Services\\LightNovelService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T17:55:50.542Z",
+              "WhenOpened": "2024-06-06T15:16:42.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AnimeService.cs",
+              "DocumentMoniker": "C:\\Users\\Jp\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\Services\\AnimeService.cs",
+              "RelativeDocumentMoniker": "AnimeTracker\\Services\\AnimeService.cs",
+              "ToolTip": "C:\\Users\\Jp\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\Services\\AnimeService.cs",
+              "RelativeToolTip": "AnimeTracker\\Services\\AnimeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T15:16:15.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LightNovelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Jp\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\Repositories\\LightNovelRepository.cs",
+              "RelativeDocumentMoniker": "AnimeTracker\\Repositories\\LightNovelRepository.cs",
+              "ToolTip": "C:\\Users\\Jp\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\Repositories\\LightNovelRepository.cs",
+              "RelativeToolTip": "AnimeTracker\\Repositories\\LightNovelRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T13:10:01.491Z",
               "EditorCaption": ""
             }
           ]
