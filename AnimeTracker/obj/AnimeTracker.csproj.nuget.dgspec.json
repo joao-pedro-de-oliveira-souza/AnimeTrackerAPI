@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jp\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\AnimeTracker.csproj": {}
+    "C:\\Users\\jpoli\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\AnimeTracker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jp\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\AnimeTracker.csproj": {
+    "C:\\Users\\jpoli\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\AnimeTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jp\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\AnimeTracker.csproj",
+        "projectUniqueName": "C:\\Users\\jpoli\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\AnimeTracker.csproj",
         "projectName": "AnimeTracker",
-        "projectPath": "C:\\Users\\Jp\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\AnimeTracker.csproj",
-        "packagesPath": "C:\\Users\\Jp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jp\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\obj\\",
+        "projectPath": "C:\\Users\\jpoli\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\AnimeTracker.csproj",
+        "packagesPath": "C:\\Users\\jpoli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jpoli\\source\\repos\\AnimeTrackerAPI\\AnimeTracker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jpoli\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,6 +45,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.6, )"
@@ -84,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,5 +1,6 @@
 ﻿using AnimeTracker.Dtos;
 using AnimeTracker.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AnimeTracker.Controllers
@@ -15,6 +16,7 @@ namespace AnimeTracker.Controllers
             _animeService = animeService;
         }
 
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetAllAnimes()
         {
